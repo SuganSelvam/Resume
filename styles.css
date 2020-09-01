@@ -1,0 +1,81 @@
+
+#main{
+    display: flex;
+}
+#left{
+    flex: 3;
+    color: white;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+    padding: 10px;   
+}
+#right{
+    flex:7;
+    padding: 10px;
+    color: #0f2027;
+    border: 1px solid #2c5364 ;
+}
+#img{
+    margin-top: 20px;
+    text-align: center;
+}
+#name{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+}
+#details{
+    text-align: center;
+    line-height: 1.6;
+}
+#content{
+    text-align: justify;
+    text-transform: initial;
+    font-weight: bold;
+}
+.img{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.educ{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.subheading{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+a { 
+    color: white; 
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif
+}
+.downdiv{
+text-align: center;
+}
+.downbtn{
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: white;
+    color: #0f2027;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+}
+.downbtn:hover{
+    background-color: #203a43;
+    color: white;
+    border: 1px solid white;
+}
+.edutitle{
+    font-size: 20px;
+    font-weight: bold;
+}
