@@ -75,7 +75,18 @@ text-align: center;
     color: white;
     border: 1px solid white;
 }
-.edutitle{
+th{
     font-size: 20px;
+    font-weight: bold;
+}
+
+.TableMain{
+    width: 100%;
+    text-align: center;
+}
+
+td{
+    padding: 5px;
+    font-size: 15px;
     font-weight: bold;
 }

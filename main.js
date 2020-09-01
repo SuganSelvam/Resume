@@ -59,7 +59,7 @@ const Content1 =() =>{
         <div id="content1">
             <div id="about" className="subheading">Career Objective </div>
             <br/>
-            <div id="content">To be a part of an organizaon where I can fully ulize my skills in programming languages to make a signiﬁcant contribuon to the success of the employer, while at the same me pursuing my individual growth. Seeking a challenging posion as a data analyst in a wellestablished company that oﬀers professional growth and ample opportunity to learn.</div>
+            <div id="content">To be a part of an organization where I can fully utilize my skills in programming languages to make a signiﬁcant contribution to the success of the employer, while at the same time pursuing my individual growth. Seeking a challenging position as a developer in a well established company that offers professional growth and ample opportunity to learn.</div>
         </div>
     );
 }
@@ -69,11 +69,36 @@ const Content2 = () =>{
         <div id="content2">
             <div id="education" className="subheading">Education</div>
             <br/>
-            <div className="educ">
-                <div><span className="edutitle">2018</span><br/>Electronics and Communication Engineering<br/><span className="edutitle">SRM Institute of Science & Technology</span><br/>74.83%</div>
-                <div><span className="edutitle">2014</span><br/>Higher Secondary Education<br/><span className="edutitle">Chettinad Vishyashram</span><br/> 70.43%</div>
-                <div><span className="edutitle">2012</span><br/>Secondary Level School Education<br/><span className="edutitle">Kavi Bharathi Vidhyalaya</span><br/> 86.00%</div>
-            </div>
+            <table className="TableMain">
+                <thead>
+                    <tr>
+                        <th>Year of Passing</th>
+                        <th>Institution Name</th>
+                        <th>Board</th>
+                        <th>Percentage </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2018</td>
+                        <td>SRM Institute of Science and Technology</td>
+                        <td>SRM University</td>
+                        <td>74.83%</td>
+                    </tr>
+                    <tr>
+                        <td>2014</td>
+                        <td>Chettinad Vidhyashram</td>
+                        <td>CBSE</td>
+                        <td>70.43%</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>Kavi Bharathi Vidhyalaya</td>
+                        <td>CBSE</td>
+                        <td>86.00%</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     );
 }
@@ -120,6 +145,12 @@ const Content5 =() =>{
             <div id="project" className="subheading">Projects</div>
             <br/>
             <div> Built <strong>Self Driving Car</strong> using <strong>Python</strong> with <strong>Machine Learning and Image Processing</strong> which successfully navigated through model road and had ability to move according with the traﬃc signal and also had the ability to stop in presence of obstacles.</div>
+            <br/>
+            <div >Working on <strong> Quickr Clone </strong>, using Nodejs and React , where user can Add Items for sale and other users can view it and contact them for buying </div>
+            <br/>
+            <div> Made <strong>OMBD</strong> using API, where users can type their favourite movie name to get its details from IMBD </div>
+            <br/>
+            <div> Made a <strong>New York Times Magazine</strong> using API to fetch current NEWS and Responsive for Mobile Devices</div>
         </div>  
     );
 }
