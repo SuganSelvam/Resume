@@ -1,7 +1,10 @@
 
 #main{
     display: flex;
+    /* width: 1024px; */
+    margin: 0px auto;
 }
+
 #left{
     flex: 3;
     color: white;
@@ -89,4 +92,22 @@ td{
     padding: 5px;
     font-size: 15px;
     font-weight: bold;
+}
+
+.listItem{
+    margin-left: 20%;
+}
+
+.certificateContent {
+    display: flex;
+}
+
+.certificateContentLeft{
+    width: 40%;
+}
+
+@media screen and (max-width: 768px){
+    #main {
+        width: 100%;
+    }
 }
